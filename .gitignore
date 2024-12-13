@@ -1,0 +1,6 @@
+atlas/
+build/
+chamfer*
+dataset/
+dist/
+*/__pycache__/

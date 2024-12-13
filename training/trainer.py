@@ -13,7 +13,7 @@ from dataset.trainer_dataset import TrainerDataset
 from training.trainer_loss import TrainerLoss
 
 
-class Trainer(TrainerAbstract, TrainerLoss, TrainerIteration, TrainerDataset, TrainerModel):
+class Trainer(TrainerAbstract, TrainerIteration, TrainerDataset, TrainerModel):
     def __init__(self, opt):
         """
         Main Atlasnet class inheriting from the other main modules.
@@ -143,6 +143,8 @@ class Trainer(TrainerAbstract, TrainerLoss, TrainerIteration, TrainerDataset, Tr
         ext = demo_path.split('.')[-1]
         self.data = self.datasets.dataset_train.load(demo_path)
         self.data = EasyDict(self.data)
+
+        print(f"Data loaded from {demo_path}")
 
         if input_path_points is None:
             input_path_points = demo_path

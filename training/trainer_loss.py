@@ -1,6 +1,6 @@
 import torch
-import auxiliary.ChamferDistancePytorch.chamfer3D.dist_chamfer_3D as dist_chamfer_3D
-
+# import auxiliary.ChamferDistancePytorch.chamfer3D.dist_chamfer_3D as dist_chamfer_3D
+dist_chamfer_3D = None
 
 from auxiliary.ChamferDistancePytorch.fscore import fscore
 import os

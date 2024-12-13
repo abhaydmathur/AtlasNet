@@ -19,7 +19,7 @@ trainer = trainer.Trainer(opt)
 trainer.build_dataset()
 trainer.build_network()
 trainer.build_optimizer()
-trainer.build_losses()
+# trainer.build_losses()
 trainer.start_train_time = time.time()
 
 if opt.demo:
