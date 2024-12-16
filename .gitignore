@@ -4,3 +4,5 @@ chamfer*
 dataset/
 dist/
 */__pycache__/
+
+trained_models/
