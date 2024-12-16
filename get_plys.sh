@@ -1,0 +1,4 @@
+python3 train.py --demo --demo_input_path="./inputs/plane_input_demo.png" --reload_model_path="trained_models/atlasnet_singleview_1_sphere/network.pth" --reload_decoder_path="trained_models/atlasnet_autoencoder_1_sphere/decoder.pth"
+python3 train.py --demo --demo_input_path="./inputs/car.png" --reload_model_path="trained_models/atlasnet_singleview_1_sphere/network.pth" --reload_decoder_path="trained_models/atlasnet_autoencoder_1_sphere/decoder.pth"
+python3 train.py --demo --demo_input_path="./inputs/chair.png" --reload_model_path="trained_models/atlasnet_singleview_1_sphere/network.pth" --reload_decoder_path="trained_models/atlasnet_autoencoder_1_sphere/decoder.pth"
+python3 train.py --demo --demo_input_path="./inputs/car_irl.png" --reload_model_path="trained_models/atlasnet_singleview_1_sphere/network.pth" --reload_decoder_path="trained_models/atlasnet_autoencoder_1_sphere/decoder.pth"
